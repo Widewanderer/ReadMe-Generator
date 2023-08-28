@@ -93,12 +93,12 @@ function generateMarkdown(data) {
   -----
 
   ## Questions 
-    Github
+ Github
    Github: [${data.github}](https://github.com/${data.github})
 
 
-    Email
-    Email:[${data.email}](suvorov13@yahoo.com)
+  Email
+   If you have any additional questions project creator can be reached by email at [${data.email}](mailto:${data.email})
     
     `;
 }
