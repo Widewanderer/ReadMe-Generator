@@ -68,7 +68,7 @@ function generateMarkdown(data) {
 
   ## Description 
 
-    ${data.description || ""} 
+  ${data.description || ""} 
     
   -----
 
@@ -81,17 +81,17 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Installation 
-    ${data.installation || ""}
+  ${data.installation || ""}
 
   -----
 
   ## Usage
-    ${data.usage || ""}
+  ${data.usage || ""}
 
   -----
 
   ## Contributing
-    ${data.contributions || ""}
+  ${data.contributions || ""}
 
   -----
 
